@@ -1,5 +1,13 @@
 # Rozwell
 WIP
 
-Run Server:
-pg_ctl -D ^"C^:^\Users^\OPERATOR^\Desktop^\Rozwell^\postgres^_data^" -l logfile start
+Run psql:
+psql -U postgres
+
+add user:
+CREATE USER *name*
+
+add database:
+CREATE DATABASE *db_name* OWNER *db_owner*
+
+
